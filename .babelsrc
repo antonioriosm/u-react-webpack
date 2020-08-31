@@ -1,6 +1,10 @@
 {
   "presets": [
     "env",
-    "react"
+    "react",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-sintax-jsx"
   ]
 }
